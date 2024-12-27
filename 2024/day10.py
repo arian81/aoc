@@ -177,7 +177,6 @@ def bfs(start, end):
                 not (0 <= nr < len(inp))
                 or not (0 <= nc < len(inp[0]))
                 or inp[nr][nc] == "0"
-                # or inp[nr][nc] == "."
             ):
                 continue
 

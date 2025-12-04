@@ -40,8 +40,6 @@ def part2(inp: str):
 
             for i in range(2, len_num + 1):
                 if len_num % i == 0:
-                    # if num == 111:
-                    #     print(i)
                     if find_rep(str_num, i):
                         res += num
                         print(num, i)
